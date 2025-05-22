@@ -12,7 +12,7 @@ const App = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const ai = new GoogleGenAI({ apiKey: "AIzaSyB01ASOCGhJb5rXz4siOR_hges9AjONLNE" }); // 👈 replce "YOUR_API_KEY" with your api key
+  const ai = new GoogleGenAI({ apiKey: "YOUR_API_KEY" }); // 👈 replce "YOUR_API_KEY" with your api key
 
   async function genearteBlogContent() {
     setLoading(true);
